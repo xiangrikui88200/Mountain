@@ -1,0 +1,92 @@
+//大聪明友情提醒：本接口中的网络资源均来自于网络和各位互联网大佬的仓库，经各种整合而成，只为方便小白使用，如有冒犯请联系删除
+//关注公众号【应用多多】回复“接口”，获取最新接口
+{
+ "spider": "https://yydsys.top/duo/jar/xm.jar",
+  "sites": [
+    {
+      "key":"js豆瓣",
+      "name":"🏮多多阿里专线，长期维护免费接口，切勿贩卖🏮",
+      "type":3,
+      "api":"https://jihulab.com/duomv/duo/-/raw/main/js/drpymin.js",
+      "ext":"https://jihulab.com/duomv/duo/-/raw/main/js/douban.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Alist1",
+      "name": "🗂Alist合集",
+      "type": 3,
+      "api": "csp_AList",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://yydsys.top/duo/json/Alist1.json"
+    },	
+    {
+      "key": "小纸条1",
+      "name": "🔖小纸条①",
+      "type": 3,
+      "api": "csp_Paper",
+      "searchable": 1,
+      "filterable": 1,
+      "switchable": 0,
+	  "jar":"https://yydsys.top/duo/jar/ali.jar"
+    },
+    {
+      "key": "小纸条2",
+      "name": "🔖小纸条②",
+      "type": 3,
+      "api": "csp_Gitcafe",
+      "searchable": 1,
+      "filterable": 1,
+      "switchable": 0
+    },
+    {
+      "key": "易搜",
+      "name": "🎯4K易搜",
+      "type": 3,
+      "api": "csp_YiSo",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0
+    },
+    {
+      "key": "盘搜",
+      "name": "📀4K盘搜",
+      "type": 3,
+      "api": "csp_PanSou",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0
+    },
+    {
+      "key": "云搜",
+      "name": "🌤️4K云搜",
+      "type": 3,
+      "api": "csp_UpYun",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0
+    },
+    {
+      "key": "找资源",
+      "name": "🔍4K找资源",
+      "type": 3,
+      "api": "csp_Zhaozy",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": "https://yydsys.top/duo/ali/token.txt$$$yingshi$$$abcd1234"
+    },
+    {
+      "key": "push_agent",
+      "name": "📨推送",
+      "type": 3,
+      "api": "csp_Push",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0
+    }
+  ]
+}
